@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Support — [VISUAL NAME]</title>
+<title>Support — Org Chart</title>
 <style>
   :root{
     --ink:#1c2733; --muted:#5b6b7a; --rule:#dfe6ec; --bg:#fbfcfd; --accent:#0b5fa5;
@@ -41,41 +41,46 @@
     <a href="/support.html">Support</a>
   </nav>
 
-  <p class="eyebrow">[PUBLISHER NAME]</p>
-  <h1>[VISUAL NAME] — Support</h1>
+  <p class="eyebrow">Lotus Lotus</p>
+  <h1>Org Chart — Support</h1>
 
   <h2>About the visual</h2>
-  <p>[VISUAL NAME] is a free Power BI custom visual that [ONE-SENTENCE
-  DESCRIPTION — e.g. "renders a fully expanded organisation chart from a
-  parent–child (employee → manager) relationship in your data"].</p>
+  <p>Org Chart is a free Power BI custom visual that renders a fully
+  expanded organisation chart from a parent–child (employee → manager)
+  relationship in your data. It needs no measure, supports ragged-depth
+  hierarchies and multiple roots, and shows every branch at once.</p>
 
   <h2>Getting started</h2>
   <p>Add the visual to your report from AppSource (Visualizations pane →
   … → <em>Get more visuals</em>), then drag the required fields into the
-  visual's field wells: [FIELD 1 — e.g. "Employee"], [FIELD 2 — e.g.
-  "Manager"]. A sample report (.pbix) demonstrating the visual is available
-  on the AppSource listing.</p>
+  visual's field wells: <strong>Employee Name</strong>,
+  <strong>Employee ID</strong> and <strong>Manager ID</strong>. Optional
+  fields: Job Title, Grade, Colour By (category colour coding) and Value
+  (a numeric field shown on each node, which also enables
+  cross-highlighting from other visuals). A sample report (.pbix)
+  demonstrating the visual is available on the AppSource listing.</p>
 
   <h2>Known limitations</h2>
-  <p>[LIST ANY — e.g. "Very large hierarchies (more than N nodes) may
-  affect rendering performance." Remove this section if none.]</p>
+  <p>Power BI supplies custom visuals with a maximum of 30,000 rows, so
+  larger organisations are truncated at that limit. Cross-highlighting
+  from other visuals requires a numeric field in the Value bucket —
+  without one, selections in other visuals filter the chart instead of
+  highlighting within it.</p>
 
   <h2>Getting help</h2>
   <div class="contact">
-    <p><strong>Email:</strong> <a href="mailto:[EMAIL]">[EMAIL]</a></p>
+    <p><strong>Email:</strong> <a href="mailto:alex.lines@lotuslotus.co.uk">alex.lines@lotuslotus.co.uk</a></p>
     <p>Please include your Power BI Desktop version, the visual's version
     (shown on the AppSource listing), and a description or screenshot of
-    the issue. We aim to respond within [N] working days.</p>
+    the issue. We aim to respond within 5 working days.</p>
   </div>
-  <p>Bug reports and feature requests can also be raised on the project's
-  <a href="[ISSUE TRACKER URL — optional, delete this sentence if not used]">issue tracker</a>.</p>
 
   <h2>Updates</h2>
   <p>Updates are published through AppSource and delivered automatically by
   Power BI; no manual reinstallation is required.</p>
 
   <hr>
-  <footer>© [YEAR] [PUBLISHER NAME] · <a href="/privacy.html">Privacy policy</a></footer>
+  <footer>© 2026 Lotus Lotus · <a href="/privacy.html">Privacy policy</a></footer>
 </main>
 </body>
 </html>
