@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — [VISUAL NAME]</title>
+<style>
+  :root{
+    --ink:#1c2733; --muted:#5b6b7a; --rule:#dfe6ec; --bg:#fbfcfd; --accent:#0b5fa5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:17px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  main{max-width:44rem; margin:0 auto; padding:3.5rem 1.5rem 5rem}
+  .eyebrow{
+    font-size:.78rem; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--muted); margin:0 0 .5rem;
+  }
+  h1{font-size:2rem; line-height:1.2; margin:0 0 2rem; font-weight:650}
+  h2{font-size:1.15rem; margin:2.25rem 0 .5rem; font-weight:650}
+  p{margin:.6rem 0}
+  hr{border:0; border-top:1px solid var(--rule); margin:2.5rem 0 1.5rem}
+  a{color:var(--accent)}
+  nav{font-size:.9rem; margin-bottom:2.5rem}
+  nav a{margin-right:1.25rem; text-decoration:none}
+  nav a:hover{text-decoration:underline}
+  .contact{
+    border:1px solid var(--rule); border-left:3px solid var(--accent);
+    background:#fff; padding:1rem 1.25rem; border-radius:6px; margin:1.5rem 0;
+  }
+  footer{color:var(--muted); font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/support.html">Support</a>
+  </nav>
+
+  <p class="eyebrow">[PUBLISHER NAME]</p>
+  <h1>[VISUAL NAME] — Support</h1>
+
+  <h2>About the visual</h2>
+  <p>[VISUAL NAME] is a free Power BI custom visual that [ONE-SENTENCE
+  DESCRIPTION — e.g. "renders a fully expanded organisation chart from a
+  parent–child (employee → manager) relationship in your data"].</p>
+
+  <h2>Getting started</h2>
+  <p>Add the visual to your report from AppSource (Visualizations pane →
+  … → <em>Get more visuals</em>), then drag the required fields into the
+  visual's field wells: [FIELD 1 — e.g. "Employee"], [FIELD 2 — e.g.
+  "Manager"]. A sample report (.pbix) demonstrating the visual is available
+  on the AppSource listing.</p>
+
+  <h2>Known limitations</h2>
+  <p>[LIST ANY — e.g. "Very large hierarchies (more than N nodes) may
+  affect rendering performance." Remove this section if none.]</p>
+
+  <h2>Getting help</h2>
+  <div class="contact">
+    <p><strong>Email:</strong> <a href="mailto:[EMAIL]">[EMAIL]</a></p>
+    <p>Please include your Power BI Desktop version, the visual's version
+    (shown on the AppSource listing), and a description or screenshot of
+    the issue. We aim to respond within [N] working days.</p>
+  </div>
+  <p>Bug reports and feature requests can also be raised on the project's
+  <a href="[ISSUE TRACKER URL — optional, delete this sentence if not used]">issue tracker</a>.</p>
+
+  <h2>Updates</h2>
+  <p>Updates are published through AppSource and delivered automatically by
+  Power BI; no manual reinstallation is required.</p>
+
+  <hr>
+  <footer>© [YEAR] [PUBLISHER NAME] · <a href="/privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
